@@ -1,6 +1,10 @@
 setup:
 	conda env create --file environment.yml  || conda env update --file environment.yml
+
 run_exploratory_data_analysis:
-	cd notebooks/ && \
-ipython Exploratory_Data_Analysis.ipynb && \
-jupyter nbconvert --to html '../notebooks/Exploratory_Data_Analysis.ipynb'
+	cd notebooks \
+		&& ipython "Exploratory Data Analysis.ipynb" \
+		&& jupyter nbconvert --to html "Exploratory Data Analysis.ipynb"
+
+preprocessing:
+	python plpred/preprocessing.py 
