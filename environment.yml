@@ -5,7 +5,7 @@ channels:
   - bioconda
 dependencies:
   - python=3.8
-  - jupyternotebook
+  - jupyterlab
   - make
   - openblas
   - pip
