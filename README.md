@@ -16,4 +16,4 @@ $ make setup
 - `requeriments.txt`: Esse arquivo é a especificação de dependencias do Pip, por exemplo, onde podemos listar as bibliotecas do Python, com isso podemos realizar uma independencia maior do Python.
 - `Makefile`: O make é utilizado para gerar regras e automatizar os comandos, rodando por exemplo uma regra setup, irá chamar a criação de ambiente e a atualização do mesmo.
 - `data/`: O data é a pasta utilizada para guardar os arquivos que irão processados "data/raw" e também o o resultado final "data/processed/processed.csv".
--`plpred`: diretório principal do pacote, com as funções da aplicação.
+- `plpred`: diretório principal do pacote, com as funções da aplicação.
