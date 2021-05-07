@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-class PlpredModel: 
+class BaseModel: 
     def __init__(self, estimator:BaseEstimator=RandomForestClassifier()):
         """
         Initialize the object.
