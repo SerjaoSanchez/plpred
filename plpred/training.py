@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from models import PlpredRF, PlpredGB, PlpredNN, PlpredSVC
+from models import PlpredRF, PlpredGB, PlpredNN, PlpredSVM
 from sklearn.metrics import classification_report
 import pickle
 
