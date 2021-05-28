@@ -70,3 +70,18 @@ optional arguments:
                         trained model (.pickle)
 
 ```
+
+### `plpred-server`
+
+```
+
+plpred-server: subcellular location prediction server
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -H HOST, --host HOST  host adress
+  -p PORT, --port PORT  host port
+  -m MODEL, --model MODEL
+                        trained model to be deploy
+
+```                       

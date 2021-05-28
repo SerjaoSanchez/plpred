@@ -12,7 +12,8 @@ setup(
         'console_scripts':[
             'plpred-preprocess = plpred.preprocessing:main',
             'plpred-train = plpred.training:main',
-            'plpred-predict = plpred.prediction:main'
+            'plpred-predict = plpred.prediction:main',
+            'plpred-server = plpred.server:main'
         ]
     }
 )
