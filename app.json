@@ -1,0 +1,10 @@
+{
+    "environments": {
+        "test": {
+            "scripts": {
+                "test-setup":"python -n pip install --upgrade pip: pip install -r requeriments.txt",
+                "test" "python -m pytest"
+            }
+        }
+    }
+}
